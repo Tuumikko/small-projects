@@ -1,0 +1,18 @@
+final MSE loss function value: 0.038413 
+
+parameters:
+
+             Parameter estimates    Standard errors
+             ___________________    _______________
+
+    V0            0.0056756           0.00019126   
+    theta          0.023434           0.00040222   
+    kappa            9.6478             0.051044   
+    eta              1.6347            0.0029962   
+    rho            -0.57598            0.0057584   
+
+
+
+Asian Down-and-In Call Option Price: 0.0046
+
+

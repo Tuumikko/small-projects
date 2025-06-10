@@ -1,0 +1,31 @@
+Kuvaus:
+Ohjelma toteuttaa muistipelin.
+* Pelissä on vaihteleva määrä kortteja ja pelaajia.
+* Pelin alussa käyttäjältä kysytään pelaajien nimet ja korttien lukumäärä.
+  (nimiä valitaa yhtä monta kuin pelaajia halutaan peliin)
+
+Pelissä tulee olla vähintään yksi pelaaja.
+Kun pelaajat ja kortti määrä on valittu, aloitetaan peli "start game"-nappulasta.
+Pelaajia voidaan lisätä myös pelin aikana.
+
+* Korttien taustapuolella on kuva (kaikissa korteissa samanlainen).
+* Korttien kuvapuolella on oikea kuva.
+
+Kortit arvotaan satunnaisesti pelilaudalle.
+Joka kierroksella vuorossa oleva pelaaja valitsee kaksi korttia,
+kortit käännetään näkyviin ja kerrotaan,
+ovatko ne parit vai ei. Jos pelaaja sai parit,
+kortit poistetaan pelilaudalta, pelaajan pistesaldoa kasvatetaan,
+ja hän saa uuden vuoron. Jos pelaaja ei saanut pareja,
+kortit käännetään takaisin piiloon, ja vuoro siirtyy seuraavalle
+pelaajalle.
+
+* Sen lisäksi, että kerrotaan, kuinka monta korttia/paria kukin pelaaja
+  on saanut, kerrotaan myös, mitkä kortit kukin pelaaja on saanut ja
+  kuka pelaaja on vuorossa.
+
+Peli päättyy, kun kaikki parit on löydetty, ja pelilauta on tyhjä.
+Tällöin kerrotaan, kuka tai ketkä voittivat eli saivat eniten pareja.
+
+
+
